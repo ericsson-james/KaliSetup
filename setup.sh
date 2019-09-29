@@ -29,8 +29,8 @@ echo "updating the db"
 updatedb
 
 read -p "Reboot? " -n 1 -r
-echo   "Yy or Nn"
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
+    echo "Rebooting."
     sudo reboot
 fi
