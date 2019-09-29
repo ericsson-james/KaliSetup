@@ -14,8 +14,14 @@ echo "# For source package access, uncomment the following line" >> /etc/apt/sou
 echo "# deb-src http://old.kali.org/kali moto main non-free contrib" >> /etc/apt/sources.list
 
 echo "Starting the update"
-
 sudo apt-get update
+
+echo "Placing git repos into /opt"
+cd /opt
+sudo git clone https://github.com/Tib3rius/AutoRecon.git
+cd AutoRecon
+pip3 install -r requirements.txt
+cd /opt
 
 echo "Starting the apt-get installations"
 sudo apt install gobuster
