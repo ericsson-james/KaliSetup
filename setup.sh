@@ -22,3 +22,11 @@ sudo apt install gobuster
 sudo apt install empire
 sudo apt install veil
 sudo apt install seclists
+apt-get install -y virtualbox-guest-x11
+
+read -p "Reboot? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    sudo reboot
+fi
