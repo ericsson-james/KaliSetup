@@ -24,6 +24,9 @@ sudo apt install veil
 sudo apt install seclists
 apt-get install -y virtualbox-guest-x11
 
+echo "updating the db"
+updatedb
+
 read -p "Reboot? " -n 1 -r
 echo    # (optional) move to a new line
 if [[ ! $REPLY =~ ^[Yy]$ ]]
