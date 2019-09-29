@@ -20,6 +20,7 @@ echo "Placing git repos into /opt"
 cd /opt
 sudo git clone https://github.com/Tib3rius/AutoRecon.git
 sudo git clone https://github.com/rebootuser/LinEnum.git
+sudo git clone https://github.com/dreadlocked/Drupalgeddon2.git
 cd AutoRecon
 pip3 install -r requirements.txt
 cd /opt
