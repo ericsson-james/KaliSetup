@@ -22,13 +22,14 @@ sudo apt install gobuster
 sudo apt install empire
 sudo apt install veil
 sudo apt install seclists
+sudo apt install ftp
 apt-get install -y virtualbox-guest-x11
 
 echo "updating the db"
 updatedb
 
 read -p "Reboot? " -n 1 -r
-echo    # (optional) move to a new line
+echo   "Yy or Nn"
 if [[ ! $REPLY =~ ^[Yy]$ ]]
 then
     sudo reboot
