@@ -13,7 +13,9 @@ echo "deb http://old.kali.org/kali moto main non-free contrib" >> /etc/apt/sourc
 echo "# For source package access, uncomment the following line" >> /etc/apt/sources.list
 echo "# deb-src http://old.kali.org/kali moto main non-free contrib" >> /etc/apt/sources.list
 
+echo "Starting the update"
 
+sudo apt-get update
 
 echo "Starting the apt-get installations"
 sudo apt install gobuster
