@@ -34,6 +34,7 @@ sudo apt install empire
 sudo apt install veil
 sudo apt install seclists
 sudo apt install ftp
+sudo apt install p7zip-full
 apt-get install -y virtualbox-guest-x11
 
 echo "updating the db"
