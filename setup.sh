@@ -21,6 +21,7 @@ cd /opt
 sudo git clone https://github.com/Tib3rius/AutoRecon.git
 sudo git clone https://github.com/rebootuser/LinEnum.git
 sudo git clone https://github.com/3ndG4me/AutoBlue-MS17-010.git
+sudo git clone https://github.com/tennc/webshell.git
 sudo git clone https://github.com/dreadlocked/Drupalgeddon2.git
 sudo gem install text-table
 sudo gem install highline
