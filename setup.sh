@@ -33,6 +33,7 @@ cd /opt
 echo "Starting the apt-get installations"
 sudo apt install gobuster
 sudo apt install empire
+sudo apt-get install mingw-w64
 sudo apt install veil
 sudo apt install seclists
 sudo apt install ftp
