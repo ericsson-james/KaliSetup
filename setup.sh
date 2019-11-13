@@ -39,8 +39,8 @@ sudo apt install seclists
 sudo apt install ftp
 sudo apt install p7zip-full
 sudo apt install exiftool
-apt-get install -y virtualbox-guest-x11
-
+sudo apt-get install -y virtualbox-guest-x11
+sudo apt install libguestfs-tools
 echo "updating the db"
 updatedb
 
