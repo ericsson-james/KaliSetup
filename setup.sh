@@ -32,21 +32,14 @@ cd /opt
 
 echo "Starting the apt-get installations"
 sudo apt install gobuster
-sudo apt install empire
-sudo apt-get install mingw-w64
+sudo apt install mingw-w64
 sudo apt install veil
+sudo apt install sublist3r
 sudo apt install seclists
 sudo apt install ftp
 sudo apt install p7zip-full
 sudo apt install exiftool
-sudo apt-get install -y virtualbox-guest-x11
+sudo apt install -y virtualbox-guest-x11
 sudo apt install libguestfs-tools
 echo "updating the db"
-updatedb
-
-read -p "Reboot? " -n 1 -r
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    echo "Rebooting."
-    sudo reboot
-fi
+sudo updatedb
